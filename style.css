@@ -5,7 +5,6 @@
 }
 
 body {
-    width: 1440px;
     margin: auto;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
@@ -17,6 +16,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
+    margin: 0 auto 40px;
 }
 
 .nav a {
@@ -44,6 +45,94 @@ body {
     color: white;
 }
 
+/* TOP PAGE */
+
+.topPage {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-left: 10%;
+    width: 90%;
+    overflow: hidden;
+}
+
+.topPage .getStarted {
+    width: 40%;
+}
+
+.topPage .getStarted h1 {
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.topPage .getStarted p {
+    color: hsl(0, 0%, 75%);
+    margin-bottom: 40px;
+}
+
+.topPage .getStarted a {
+    background-color: hsl(180, 66%, 49%) ;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.topPage img {
+    overflow: hidden;
+    position: relative;
+    right: -200px;
+}
+
+/* LINK */
+
+.link {
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    padding: 50px;
+    background-image: url("images/bg-shorten-desktop.svg") ;
+    background-size: cover;
+    background-color: hsl(260, 8%, 14%);
+    border-radius: 10px;
+    position: absolute;
+    left: 10%;
+}
+
+.link input {
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+
+.link input:first-child {
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.link input:nth-child(2) {
+    width: 20%;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* STATISTICS */
+
+.statistics {
+    background-color: #EFF1F7;
+    text-align: center;
+    padding-top: 200px;
+    margin-top: 111px;
+}
+
+.statistics h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
 
 
 
