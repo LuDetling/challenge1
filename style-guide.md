@@ -27,15 +27,6 @@ The designs were created to the following widths:
 
 ## Typography
 
-### Body Copy
-
-- Font size: 18px
-
-### Fonts
-
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 500, 700
-
 ## Icons
 
 For the social icons, you can either use the SVGs provided or a font icon library. Some suggestions for font icon libraries can be found below:

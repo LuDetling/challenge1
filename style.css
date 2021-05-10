@@ -1,0 +1,64 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    margin: auto;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* HEADER NAV */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: hsl(0, 0%, 75%);
+}
+
+.navGauche {
+    display: flex;
+    align-items: center;
+}
+
+.navGauche a {
+    margin: 15px;
+}
+
+.navDroite a {
+    margin: 15px;
+}
+
+.navDroite a:nth-child(2) {
+    background-color: hsl(180, 66%, 49%) ;
+    padding: 5px 17px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
